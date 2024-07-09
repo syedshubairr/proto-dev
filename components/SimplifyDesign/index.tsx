@@ -72,7 +72,7 @@ const SimplifyDesign = () => {
             <Image src={Slack} alt="Slack" />
           </span>
         </div>
-        <Image src={Twitter} alt="Logo" />
+        <Image src={Twitter} alt="Logo" width="15" height="15" />
         <div className="flex gap-2">
           <p>Manage on Trello</p>
           <span>
@@ -80,7 +80,7 @@ const SimplifyDesign = () => {
           </span>
         </div>
         <span>
-          <Image src={Twitter} alt="Logo" />
+          <Image src={Twitter} alt="Logo" width="15" height="15" />
         </span>
         <div className="flex gap-2">
           <p>Delivered in Figma</p>

@@ -14,3 +14,6 @@ export const Slack = require("./slack.svg");
 export const Trello = require("./trello.svg");
 export const Figma = require("./figma.svg");
 export const Twitter = require("./twitter.svg");
+export const solution1 = require("./solution1.svg");
+export const solution2 = require("./solution2.svg");
+export const solution3 = require("./solution3.svg");

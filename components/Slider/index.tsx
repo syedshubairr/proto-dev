@@ -15,7 +15,8 @@ const Slider = () => {
       <Swiper
         slidesPerView={1}
         spaceBetween={10}
-        loop
+        loop={true}
+        autoplay={true}
         breakpoints={{
           640: {
             slidesPerView: 1,

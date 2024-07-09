@@ -1,5 +1,6 @@
 import Heading from "@/components/Heading";
 import Navbar from "@/components/Navbar";
+import PerfectSolution from "@/components/PerfectSolution";
 import RecentWork from "@/components/RecentWork";
 import SimplifyDesign from "@/components/SimplifyDesign";
 import Slider from "@/components/Slider";
@@ -13,6 +14,7 @@ export default function Home() {
       <RecentWork />
       <Slider />
       <SimplifyDesign />
+      <PerfectSolution />
     </main>
   );
 }
