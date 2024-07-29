@@ -9,9 +9,9 @@ const Packages = () => {
           Transform Your Vision with Pro Design
         </h1>
       </div>
-      <div className="flex justify-center gap-7">
+      <div className="grid grid-cols-1 md:grid-cols-3 justify-center">
         <Card />
-        <Card />
+        <Card popular />
         <Card />
       </div>
     </div>
