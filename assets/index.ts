@@ -25,3 +25,5 @@ export const Avatar3 = require("./client3.png");
 export const Avatar4 = require("./client4.png");
 export const Avatar5 = require("./client5.png");
 export const Avatar6 = require("./client6.png");
+export const FAQAvatar = require("./faq.svg");
+export const OnlyLogo = require("./logoOnly.jpg");

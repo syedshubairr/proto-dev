@@ -1,3 +1,5 @@
+import FAQ from "@/components/FAQ";
+import Footer from "@/components/Footer";
 import Heading from "@/components/Heading";
 import Navbar from "@/components/Navbar";
 import Packages from "@/components/Packages";
@@ -19,6 +21,8 @@ export default function Home() {
       <PerfectSolution />
       <Packages />
       <Results />
+      <FAQ />
+      <Footer />
     </main>
   );
 }

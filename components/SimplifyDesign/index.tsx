@@ -1,5 +1,6 @@
 import {
   Figma,
+  OnlyLogo,
   Simplify1,
   Simplify2,
   Simplify3,
@@ -65,14 +66,14 @@ const SimplifyDesign = () => {
           </div>
         </Button>
       </div>
-      <div className="flex justify-center gap-2 items-center text-xs py-6">
+      <div className="flex justify-center gap-6 items-center text-xs py-6">
         <div className="flex gap-2">
           <p>Communication via Slack</p>
           <span>
             <Image src={Slack} alt="Slack" />
           </span>
         </div>
-        <Image src={Twitter} alt="Logo" width="15" height="15" />
+        <Image src={OnlyLogo} alt="Logo" width="12" height="12" />
         <div className="flex gap-2">
           <p>Manage on Trello</p>
           <span>
@@ -80,7 +81,7 @@ const SimplifyDesign = () => {
           </span>
         </div>
         <span>
-          <Image src={Twitter} alt="Logo" width="15" height="15" />
+          <Image src={OnlyLogo} alt="Logo" width="12" height="12" />
         </span>
         <div className="flex gap-2">
           <p>Delivered in Figma</p>
