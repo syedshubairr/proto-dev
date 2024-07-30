@@ -9,7 +9,7 @@ import { shock, shock_white } from "@/assets";
 const Card: FC<CardProps> = ({ popular }) => {
   return (
     <div
-      className={`flex flex-col border-[#d6d6d6] border-2 rounded-2xl px-8 pt-5 pb-8 max-w-[330px] h-[460px] justify-between ${
+      className={`flex flex-col border-[#d6d6d6] border-2 rounded-2xl px-8 pt-5 pb-8 max-w-[404px] h-[594px] md:h-[500px] justify-between ${
         popular && "bg-black text-white"
       } `}
     >

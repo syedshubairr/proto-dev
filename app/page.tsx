@@ -12,7 +12,7 @@ import { register } from "swiper/element/bundle";
 export default function Home() {
   register();
   return (
-    <main className="flex flex-col">
+    <div className="flex flex-col justify-center mx-4">
       <Navbar />
       <Heading />
       <RecentWork />
@@ -23,6 +23,6 @@ export default function Home() {
       <Results />
       <FAQ />
       <Footer />
-    </main>
+    </div>
   );
 }
